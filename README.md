@@ -36,6 +36,18 @@ pip install requests
 pip install streamlit
 pip install plotly
 ```
+## Import
+
+import os
+import pandas as pd
+import json
+import psycopg2 
+import streamlit as st
+import plotly.express as px
+from streamlit_option_menu import option_menu
+from PIL import Image
+from git.repo.base import Repo
+
 ## Guide
 
 This data has been structured to provide details of following three sections with data cuts on Transactions, Users and Insurance of PhonePe Pulse - Explore tab.
