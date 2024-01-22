@@ -36,18 +36,6 @@ pip install requests
 pip install streamlit
 pip install plotly
 ```
-## Import
-
-import os
-import pandas as pd
-import json
-import psycopg2 
-import streamlit as st
-import plotly.express as px
-from streamlit_option_menu import option_menu
-from PIL import Image
-from git.repo.base import Repo
-
 ## Guide
 
 This data has been structured to provide details of following three sections with data cuts on Transactions, Users and Insurance of PhonePe Pulse - Explore tab.
@@ -55,6 +43,47 @@ This data has been structured to provide details of following three sections wit
 Aggregated - Aggregated values of various payment categories as shown under Categories section
 Map - Total values at the State and District levels.
 Top - Totals of top States / Districts /Pin Codes
+
+## Pros 
+- We get the benefit of Wallet with PhonePe, send payments very quickly.
+- With PhonePe, you can add several bank accounts and effortlessly handle all of them via same account.
+- The app is rewarding which means you get a scratch card every time you pay.
+- Good customer service so that you can quickly solve any problems you face using the apps.
+- The payment app PhonePe is extremely popular because it's easy to use and faster in processing merchant payments than the Paytm application.
+
+## Cons
+- Like GPay, you dont have the option for secure login using PIN or password.
+- Sometimes your transaction gets stuck in between for long duration.
+- if you are booking your travel tickets with PhonePe and in case you cancelled it wont get any refunds
+- Limited transaction
+- Dependency on internet connectivity.
+
+## Findings
+
+- As per the phonepe data Most of the Insurance Transaction amount are made by Maharashtra , Karanataka , Andhra Pradesh state and District wise Bangalore , Pune , Thane been the top for 2020,2021,2022,2023.
+- Same for Transactions like peer to peer or merchant or Recharge & Bill Payment or Financial services or other transaction are mostly made by Maharashtra , Andhra , Karanataka .
+- Brands like Xiaomi , Samsung , Vivo users use alot compare to other brands.
+- More than 500 million people use phonepe for online transactions .
+- Each State and districts been part of using Digital transactions and Many merchants start using Online mode of payments.
+- Still some rural area people are not much flexible of using online payment mode due to lack of knowledge and frauds and scared to use online payments
+- The Evolution of Online payment app has been devloped each year and mostly used after covid period compare to past years .
+- Online transaction have certain limits so still people perfer offline transaction like banks,cash in hand.
+- Even though online transaction save time and 24/7 availability platform compare to offline 
+
+## Solution
+
+- Awareness knowledge and how to use online transaction to rural people.
+- Conducting workshops, webinars, and outreach programs to address concerns related to fraud, safety, and the benefits of online payments.
+- Must provide offers or coupons or voucher for each online transaction so people get attract to it and use more compare to offline .
+- Based on feedback given by customers can improve and update the phonepe application
+- Must provide refunds for tickets which can help alot of people to use
+- Can increase the transaction limit and can reduce 24hours of blocking can be reduced.
+- Expanding customer support via religional language and guideness
+- Providing more security features due to more frauds and misuses
+- Voice base transaction can help lot of old people.
+- Due to some area have limit of internet connectivity can provide offline mode feature by dailing
+- Providing basic knowledge for elder and older person to use smart phones since most older people use basic phones.
+- Recovering and solving the issues on time where people can feel helpful of immediate refund if got stucked or wrongly sent .
 
 ## Conclusion
 
